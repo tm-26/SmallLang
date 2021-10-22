@@ -1,0 +1,4 @@
+/* This program will generate an error as the variable num1 has been declared twice*/
+let num1:int = 5;
+let num1:int = 10;
+print num1;

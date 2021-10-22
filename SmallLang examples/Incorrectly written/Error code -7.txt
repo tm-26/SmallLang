@@ -1,0 +1,6 @@
+ff myFunc(num1: int): int{
+	return num1;
+}
+
+// Will result in an error since the function myFunc expects 1 parameter, but 2 have been supplied.
+let printed: bool = myFunc(2, 3);

@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Program><Function Type="bool">main<Parameters><Parameter Type="int">x</Parameter></Parameters></Function><Block><Return><BooleanConst>true</BooleanConst></Return></Block><Print><FunctionCall>main<Parameters/><IntegerConst>0</IntegerConst></FunctionCall></Print></Program>

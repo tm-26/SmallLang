@@ -1,0 +1,15 @@
+ff printEveryOtherValue(start: int, end: int): bool {
+	let shouldPrint: bool = true;
+	while(start <= end){
+		if(shouldPrint){
+			print start;
+			shouldPrint = false;
+		} else {
+			shouldPrint = true;
+		}
+		start = start + 1;
+	}
+	return true;
+}
+
+let printed: bool = printEveryOtherValue(0, 1000);

@@ -1,0 +1,3 @@
+/* This program will generate an error as the parser is expecting an identifer node but a type node has been entered instead */
+let int:num1 = 42;
+print num1;

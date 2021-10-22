@@ -1,0 +1,8 @@
+/* This program will generate an error as the function myFunc has been declared twice*/
+ff myFunc(x:int):bool{
+	return true;
+}
+
+ff myFunc(x:int):bool{
+	return false;
+}

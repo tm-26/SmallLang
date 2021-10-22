@@ -1,0 +1,7 @@
+/* This program will generate the variable myBool is not declared in the global scopre */
+ff myFunc(x:int):bool{
+	let myBool:bool = true;
+	return true;
+}
+
+print myBool;

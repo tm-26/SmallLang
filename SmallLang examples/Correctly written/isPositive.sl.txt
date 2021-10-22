@@ -1,0 +1,12 @@
+ff isPositive(x:int):auto{
+	if(x > 0){
+		return true;
+	} else {
+		return false;
+	}
+}
+
+let i:int = (2-4);
+let j:auto = 10;
+print isPositive(i);
+print isPositive(j);

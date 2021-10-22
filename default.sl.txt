@@ -1,0 +1,8 @@
+// This file will be executed unless a parameter is passed to Main.class 
+ff main(x:int):bool{
+	return true;
+}
+
+print main(0);
+
+

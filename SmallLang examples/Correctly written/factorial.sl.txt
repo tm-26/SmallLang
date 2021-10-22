@@ -1,0 +1,13 @@
+/* Returns the factorial of num */
+ff factorial(num:int) : int {
+	let ans:int = 1;
+	for(let i:int = 1; i <= num; i = i + 1){
+		ans = ans * i;
+	}
+	return ans;
+}
+
+print factorial(6);
+print factorial(10);
+print factorial(3);
+print factorial(1);

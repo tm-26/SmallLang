@@ -1,0 +1,8 @@
+// Converts euro to bitcoin, conversion amount taken on 10/06/2020. This number flucates greatly over time.
+ff EuroToBitCoinConversion(x:float):float{
+	return (x * 8594.36);
+}
+
+print EuroToBitCoinConversion(1.00);
+print EuroToBitCoinConversion(.26);
+print EuroToBitCoinConversion(42.00);

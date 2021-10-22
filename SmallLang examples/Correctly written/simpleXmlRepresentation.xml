@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Program><Decl><Var Type="int">int_1</Var><IntegerConst>20</IntegerConst></Decl><Decl><Var Type="int">int_2</Var><IntegerConst>6</IntegerConst></Decl><Print><BinExprNode Op="+">int_1int_2</BinExprNode></Print></Program>

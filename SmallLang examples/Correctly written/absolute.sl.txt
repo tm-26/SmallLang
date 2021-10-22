@@ -1,0 +1,15 @@
+// Returns the absolute value of x
+ff ABS(x:int):int{
+	if(x < 0){
+		return x * (0-1);
+	} else {
+		return x;
+	}
+}
+
+let num1:int = (0-2);
+let num2:int = (0-6);
+print ABS(num1);
+print ABS(num2);
+print ABS(100);
+print ABS(42);
